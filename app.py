@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 #Membuat model regresi linear yang sudah disimpan
-lin_reg_loaded = joblib.load('lin_reg_model.joblib')
+lin_reg_loaded = joblib.load('lin.reg_model_new.joblib')
 
 #Judul aplikasi
 st.title("Prediksi Gaji Berdasarkan Lama Bekerja")
